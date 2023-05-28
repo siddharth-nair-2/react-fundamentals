@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="keys">
       <button disabled={items.length >= allItems.length} onClick={addItem}>
-        add item
+        add items
       </button>
       <ul>
         {items.map(item => (
